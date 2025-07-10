@@ -1,0 +1,41 @@
+.ttt-sidebar {
+  width: 82px;
+  min-width: 82px;
+  background: var(--bg-secondary);
+  border-right: 1px solid var(--border-color);
+  min-height: calc(100vh - 60px);
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+.ttt-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ttt-sidebar li {
+  margin-bottom: 18px;
+  text-align: center;
+}
+.ttt-sidebar-btn {
+  background: none;
+  border: none;
+  font-size: 1.14rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  color: var(--text-primary);
+  padding: 10px 0 6px;
+  border-radius: 7px;
+  transition: background 0.2s, color 0.2s;
+}
+.ttt-sidebar li.active .ttt-sidebar-btn,
+.ttt-sidebar-btn:hover {
+  background: var(--primary, #4A90E2);
+  color: #fff;
+}
+.icon {
+  margin-bottom: 3px;
+  font-size: 1.4em;
+}

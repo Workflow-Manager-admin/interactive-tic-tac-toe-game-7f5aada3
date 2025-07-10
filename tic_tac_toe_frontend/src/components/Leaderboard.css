@@ -1,0 +1,37 @@
+.ttt-leaderboard {
+  background: var(--bg-secondary);
+  margin-top: 26px;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px rgba(74,144,226,.06);
+  padding: 23px 22px 18px 22px;
+  max-width: 420px;
+  min-width: 280px;
+}
+.ttt-leaderboard h3 {
+  color: var(--primary, #4A90E2);
+  font-size: 1.08em;
+  font-weight: 600;
+  margin-bottom: 11px;
+}
+.ttt-leaderboard table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.ttt-leaderboard th,
+.ttt-leaderboard td {
+  border-bottom: 1px solid var(--border-color);
+  padding: 0.5em;
+  text-align: center;
+}
+.ttt-leaderboard tr:last-child td {
+  border-bottom: none;
+}
+.ttt-leaderboard th {
+  color: var(--primary, #4A90E2);
+  font-weight: 600;
+  font-size: 1em;
+  background: none;
+}
+.ttt-leaderboard td {
+  font-size: 0.98em;
+}

@@ -1,0 +1,59 @@
+.ttt-history-list {
+  margin-top: 26px;
+  background: var(--bg-secondary);
+  padding: 17px 20px 13px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px rgba(74,144,226,.06);
+  min-width: 270px;
+  max-width: 420px;
+}
+.ttt-history-list h3 {
+  color: var(--primary, #4A90E2);
+  font-size: 1.08em;
+  font-weight: 600;
+  margin-bottom: 9px;
+}
+.ttt-history-list ul {
+  list-style: none;
+  margin: 0; padding: 0;
+}
+.ttt-history-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6em;
+  font-size: 1em;
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--border-color);
+}
+.ttt-history-item:last-child {
+  border-bottom: none;
+}
+.ttt-history-outcome {
+  font-weight: 600;
+  color: var(--accent, #F5A623);
+  padding-right: 7px;
+}
+.ttt-history-date {
+  font-size: 95%;
+  color: var(--text-secondary, #777);
+}
+.ttt-btn-outline {
+  border: 1.5px solid var(--primary, #4A90E2);
+  color: var(--primary, #4A90E2);
+  background: none;
+  border-radius: 5px;
+  padding: 6px 15px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.ttt-btn-outline:hover {
+  background: var(--primary, #4A90E2);
+  color: #fff;
+}
+.ttt-history-empty {
+  margin-top: 30px;
+  color: #AAA;
+  font-size: 1.05em;
+  text-align: center;
+}

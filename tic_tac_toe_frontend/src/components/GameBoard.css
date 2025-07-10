@@ -1,0 +1,54 @@
+.ttt-board-container {
+  margin-top: 32px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ttt-board {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: var(--bg-secondary);
+  border: 1.5px solid var(--primary, #4A90E2);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(74,144,226,0.10);
+  padding: 14px;
+}
+.ttt-board-row {
+  display: flex;
+  gap: 4px;
+}
+.ttt-cell {
+  width: 66px;
+  height: 66px;
+  font-size: 2.1em;
+  font-weight: bold;
+  color: var(--primary, #4A90E2);
+  background: #fff;
+  border: 1.5px solid var(--border-color);
+  border-radius: 7px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 0.15s, background .23s;
+  cursor: pointer;
+  outline: none;
+}
+.ttt-cell:disabled {
+  opacity: 0.65;
+  cursor: default;
+}
+
+.ttt-cell:not(:disabled):hover {
+  box-shadow: 0 0 7px var(--accent, #F5A623);
+  background: #fffbe8;
+}
+
+.ttt-board-status {
+  margin-top: 16px;
+  font-size: 1.2em;
+  color: var(--accent, #F5A623);
+  font-weight: 500;
+}
